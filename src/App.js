@@ -1,22 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
 import './main.scss';
-
-const Accueil = () => (
-  <div>
-    <h1>Accueil</h1>
-    <p>Bienvenue sur la page d'accueil !</p>
-  </div>
-);
-
-const APropos = () => (
-  <div>
-    <h1>À Propos</h1>
-    <p>En savoir plus sur notre application.</p>
-  </div>
-);
+import Accueil from './Accueil';
+import APropos from './APropos';
 
 function App() {
   return (

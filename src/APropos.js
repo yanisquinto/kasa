@@ -3,7 +3,7 @@ import React from 'react';
 
 const APropos = () => (
   <div>
-    <h1>À Propos</h1>
+    <h1>À Propos de Yanis</h1>
     {/* Ajoutez le contenu de la page "À Propos" ici */}
   </div>
 );
