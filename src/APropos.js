@@ -1,9 +1,13 @@
 // src/pages/APropos.js
 import React from 'react';
+import Header from './components/Header';
+import Banner from './components/Banner';
+import bannerIMG from './components/images/bannerapropos.png'
 
 const APropos = () => (
   <div>
-    <h1>À Propos de Yanis</h1>
+    <Header />
+    <Banner imageUrl={bannerIMG}></Banner>
     {/* Ajoutez le contenu de la page "À Propos" ici */}
   </div>
 );

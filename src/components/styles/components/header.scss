@@ -1,0 +1,48 @@
+// header.scss
+$primary-color: #FF6060;
+$logo-width: 210.32px;
+$logo-height: 68px;
+$button-gap: 25px;
+$button-top: 17px;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  img {
+    width: $logo-width;
+    height: $logo-height;
+    margin-right: 100px;
+  }
+
+  .navlink {
+    color: $primary-color;
+    text-decoration: underline;
+  }
+
+  nav {
+    display: flex;
+    margin-left: 660px;
+    gap: $button-gap;
+    align-items: end;
+
+    a {
+      color: $primary-color;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: $button-top;
+      cursor: pointer;
+    }
+
+    .active {
+      text-decoration: underline;
+    }
+  }
+}
