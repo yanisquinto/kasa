@@ -3,7 +3,8 @@ import Header from './components/Header';
 import Banner from './components/Banner';
 import Card from './components/Card';
 import imgBanner from './components/images/banneraccueil.png';
-import jsonData from './components/Data.json'; // Importez directement le JSON
+import jsonData from './components/Data.json'; 
+import Footer from './components/Footer';
 
 const Accueil = () => {
   const [cardsData] = React.useState(jsonData);
@@ -22,6 +23,7 @@ const Accueil = () => {
           />
         ))}
       </section>
+      <Footer />
     </div>
   );
 };

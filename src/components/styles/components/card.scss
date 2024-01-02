@@ -2,7 +2,7 @@
     display: grid;
     align-items: center;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 50px;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
     justify-content: center;
     background: #F6F6F6;
@@ -10,6 +10,7 @@
     border-radius: 25px;
     gap: 20px;
     padding: 30px;
+    margin-bottom: 110px;
   }
   
   .card {

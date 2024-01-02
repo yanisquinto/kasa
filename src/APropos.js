@@ -3,13 +3,16 @@ import React from 'react';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import bannerIMG from './components/images/bannerapropos.png'
+import Footer from './components/Footer';
 
 const APropos = () => (
-  <div>
+  <div className='apropos-container'>
     <Header />
     <Banner imageUrl={bannerIMG}></Banner>
-    {/* Ajoutez le contenu de la page "À Propos" ici */}
+    <section></section>
+    <Footer />
   </div>
+
 );
 
 export default APropos;
