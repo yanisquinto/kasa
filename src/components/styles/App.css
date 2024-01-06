@@ -1,17 +1,16 @@
 /* App.css */
 
 body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 30px;
-  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0; 
 }
 
 .accueil-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: hidden;
   margin: 0;
 }
 
@@ -19,14 +18,37 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: hidden;
+  margin: 0;
+}
+
+.logement-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
   margin: 0;
 }
 
 .gallerycard {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;;
+}
+
+.show-more-button {
+  background-color: #FF6060; 
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 200px;
+}
+
+button {
+  appearance: none; 
+  border: none; 
 }
 
 

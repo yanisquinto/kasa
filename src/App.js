@@ -1,9 +1,15 @@
+// App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './components/styles/main.scss';
 import './components/styles/App.css';
 import Accueil from './Accueil';
 import APropos from './APropos';
+import LogementPage from './LogementPage';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+
+library.add(fas);
 
 function App() {
   return (
@@ -13,6 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Accueil />} />
             <Route path="/a-propos" element={<APropos />} />
+            <Route path="/logementPage/:id" element={<LogementPage />} />
           </Routes>
         </header>
       </div>
@@ -21,5 +28,6 @@ function App() {
 }
 
 export default App;
+
 
 
