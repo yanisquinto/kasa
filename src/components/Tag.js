@@ -1,9 +1,10 @@
 // Tag.js
 import React from 'react';
+import './styles/components/tag.scss'
 
 const Tag = ({ text }) => {
   return (
-    <li className="tag">{text}</li>
+    <p className="tag">{text}</p>
   );
 };
 

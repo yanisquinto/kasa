@@ -16,8 +16,8 @@ $primaryColor: #FF6060;
   letter-spacing: 0em;
   text-align: left;
   color: $primaryColor;
-  margin-left: 50px;
-  margin-top: 220px;
+  margin-left: 52px;
+  margin-top: 260px;
 }
 
 .location {
@@ -29,7 +29,7 @@ $primaryColor: #FF6060;
   letter-spacing: 0em;
   text-align: left;
   color: $primaryColor;
-  margin-top: 270px;
+  margin-top: 320px;
   margin-left: 52px;
 }
 
@@ -60,23 +60,4 @@ $primaryColor: #FF6060;
     right: 90px;
     bottom: -10px;
   }
-
-.tags {
-  grid-column: 1 / span 1; /* Occupant les deux colonnes */
-  grid-row: 4; /* Troisième ligne */
-  display: flex;
-  flex-wrap: wrap; /* Si les tags dépassent la largeur, ils passent à la ligne suivante */
-  gap: 10px; /* Espace entre les tags */
-
-  .tag {
-    width: 115px;
-    height: 25px;
-    border-radius: 10px;
-    background: $primaryColor;
-    color: white;
-    font-family: Montserrat;
-    font-size: 14px;
-    text-align: center;
-  }
-}
 

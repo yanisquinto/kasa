@@ -5,6 +5,8 @@ import './styles/components/BodyLogement.scss';
 import Slideshow from './Slideshow';
 import Rating from './Rating';
 import Tag from './Tag';
+import DescriptionCollapse from './DescriptionCollapse';
+import EquipmentsCollapse from './EquipmentsCollapse';
 
 const BodyLogement = ({ logement }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -52,6 +54,11 @@ const BodyLogement = ({ logement }) => {
       </ul>
 
       <Rating rating={rating} />
+
+      <div>
+      <DescriptionCollapse description={description} />
+      <EquipmentsCollapse equipments={equipments} />
+      </div>
     </div>
   );
 };

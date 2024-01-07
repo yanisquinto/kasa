@@ -1,0 +1,27 @@
+/* tags.scss* */
+
+$primaryColor: #FF6060;
+
+.tags {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 15px;
+  
+  
+    .tag {
+      width: 115px;
+      height: 25px;
+      border-radius: 10px;
+      background: $primaryColor;
+      color: white;
+      font-family: Montserrat;
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  

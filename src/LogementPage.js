@@ -6,11 +6,10 @@ import Footer from './components/Footer';
 import jsonData from './components/Data.json';
 import { useParams } from 'react-router-dom';
 
+
 const LogementPage = () => {
   const { id } = useParams();
   const logement = jsonData.find((item) => item.id === id);
-
-  console.log('LogementPage - id:', id);
 
   if (!logement) {
     // Gérer le cas où le logement n'est pas trouvé
