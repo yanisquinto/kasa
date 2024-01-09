@@ -11,6 +11,7 @@ $primaryColor: #FF6060;
   
     &.custom-open {
       height: auto;
+      transition: transform 0.2s ease-in-out;
     }
   
     .custom-collapse-header {
@@ -45,6 +46,7 @@ $primaryColor: #FF6060;
       font-size: 14px;
       color: $primaryColor;
       background: #F6F6F6;
+      transition: transform 0.2s ease-in-out;
     }
   }
   

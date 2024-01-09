@@ -6,9 +6,10 @@ function Error404() {
   return (
     <div>
       <Header />
-      <div>
-        <h1>Erreur 404 - Page non trouvée</h1>
-        <p>Désolé, la page que vous recherchez n'existe pas.</p>
+      <div className='container-404'>
+        <h1 className='title-404'>404</h1>
+        <p className='noexist-404'>Oups! La page que vous demandez n'existe pas.</p>
+        <a href='/' className='gotoindex-404'>Retourner sur la page d'accueil</a>
       </div>
       <Footer />
     </div>

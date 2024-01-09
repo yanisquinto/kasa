@@ -8,7 +8,7 @@ import bannerIMG from './components/images/bannerapropos.png';
 const APropos = () => (
   <div className='apropos-container'>
     <Header />
-    <Banner imageUrl={bannerIMG} />
+    <Banner imageUrl={bannerIMG}/>
     <section>
       <Collapse
         title="Fiabilité"

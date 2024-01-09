@@ -1,6 +1,5 @@
 
 footer {
-    bottom: 0em;
     background-color: black;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -25,3 +24,13 @@ footer {
 
 
   }
+
+  body {
+    margin: 0;
+    position: relative;
+    min-height: 100vh; 
+  }
+  
+
+
+  

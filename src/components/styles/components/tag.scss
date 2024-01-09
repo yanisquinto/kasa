@@ -10,16 +10,17 @@ $primaryColor: #FF6060;
   
   
     .tag {
-      width: 115px;
       height: 25px;
       border-radius: 10px;
       background: $primaryColor;
       color: white;
       font-family: Montserrat;
       font-size: 14px;
-      display: flex;
+      display: inline-flex; 
       justify-content: center;
       align-items: center;
+      padding: 0 10px; 
     }
+    
   }
   

@@ -5,6 +5,7 @@ import BodyLogement from './components/BodyLogement';
 import Footer from './components/Footer';
 import jsonData from './components/Data.json';
 import { useParams } from 'react-router-dom';
+import './components/styles/logement.scss'
 
 
 const LogementPage = () => {
@@ -12,7 +13,7 @@ const LogementPage = () => {
   const logement = jsonData.find((item) => item.id === id);
 
   if (!logement) {
-    // Gérer le cas où le logement n'est pas trouvé
+    
     return <div>Logement non trouvé</div>;
   }
 

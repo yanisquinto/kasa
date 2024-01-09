@@ -1,11 +1,5 @@
 $primaryColor: #FF6060;
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0; 
-  }
 
 .container {
    display: grid;
@@ -20,6 +14,7 @@ body {
   width: 1205px;
   margin-left: 145px;
   margin-top: 30px;
+  margin-bottom: 200px;
 
   
   button {
