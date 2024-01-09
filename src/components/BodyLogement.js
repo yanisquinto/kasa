@@ -1,5 +1,3 @@
-// BodyLogement.js
-
 import React, { useState } from 'react';
 import './styles/components/BodyLogement.scss';
 import Slideshow from './Slideshow';

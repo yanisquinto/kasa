@@ -1,0 +1,55 @@
+$primaryColor: #FF6060;
+
+.collapse-container {
+  width: 582px;
+  height: 52px;
+  background-color: $primaryColor;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 90px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 100px;
+  transition: transform 0.3s ease-in-out;
+
+
+
+  &.open {
+    height: auto;
+  }
+
+  .collapse-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    cursor: pointer;
+
+    h3 {
+      margin-right: 420px;
+      font-family: Montserrat;
+      font-weight: normal;
+      font-size: 18px;
+      color: white;
+    }
+
+    svg {
+      color: white;
+      width: 20px;
+      height: 20px;
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+
+  p {
+      padding: 0 20px;
+    margin: 0;
+    padding-top: 15px;
+      padding-bottom: 15px;
+      line-height: 25px;
+      font-family: Montserrat;
+      font-size: 14px;
+      color: $primaryColor;
+      background: #F6F6F6;
+
+    }
+  }

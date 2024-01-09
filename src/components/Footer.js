@@ -1,4 +1,3 @@
-//Footer.js
 import React from 'react';
 import './styles/components/footer.scss'
 import logoKasa from './images/LOGO.png'

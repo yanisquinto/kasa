@@ -1,4 +1,3 @@
-// Rating.js
 import React from 'react';
 import './styles/components/rating.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

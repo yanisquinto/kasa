@@ -1,34 +1,50 @@
-/* tags.scss* */
-
 $primaryColor: #FF6060;
 
-.collapse1 {
-    position: absolute;
-    width: 582px;
+.custom-collapse-container {
+    width: 1023px;
     height: 52px;
-    border-radius: 10px;
-    background: $primaryColor;
-    color: white;
-    font-family: Montserrat;
-    font-size: 14px;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .collapse2 {
-    position: absolute;
-    width: 582px;
-    height: 52px;
-    border-radius: 10px;
-    background: $primaryColor;
-    color: white;
-    font-family: Montserrat;
-    font-size: 14px;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    margin-left: 700px;
-  }
+    background-color: $primaryColor;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
   
+    &.custom-open {
+      height: auto;
+    }
+  
+    .custom-collapse-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      cursor: pointer;
+  
+      .custom-titlecollapse {
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 18px;
+        color: white;
+      }
+  
+      .custom-svg {
+        color: white;
+        width: 20px;
+        height: 20px;
+        transition: transform 0.3s ease-in-out;
+      }
+    }
+  
+    .custom-p {
+      padding: 0 20px;
+      margin: 0;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      line-height: 25px;
+      font-family: Montserrat;
+      font-size: 14px;
+      color: $primaryColor;
+      background: #F6F6F6;
+    }
+  }
   

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import './styles/components/collapse.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import './styles/components/collapse.scss';
 
 const Collapse = ({ title, content }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,12 +11,13 @@ const Collapse = ({ title, content }) => {
   };
 
   return (
-    <div className='collapse'>
-      <div onClick={toggleCollapse} className='collapse'>
-        <h3></h3>
+    <div className={`custom-collapse-container ${isOpen ? 'custom-open' : 'custom-closed'}`}>
+      <div onClick={toggleCollapse} className="custom-collapse-header">
+        <h3 className='custom-titlecollapse'>{title}</h3>
+        <FontAwesomeIcon icon={isOpen ? faChevronUp : faChevronDown} className="custom-svg" />
       </div>
       {isOpen && (
-        <div>
+        <div className="custom-p">
           {content}
         </div>
       )}

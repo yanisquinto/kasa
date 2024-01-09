@@ -1,5 +1,3 @@
-// Slideshow.js
-
 import React from 'react';
 import './styles/components/slideshow.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

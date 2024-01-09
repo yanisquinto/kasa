@@ -1,4 +1,3 @@
-// Tag.js
 import React from 'react';
 import './styles/components/tag.scss'
 
