@@ -19,6 +19,10 @@ body {
   
 }
 
+.apropos-container .banner-text {
+  display: none;
+}
+
 .logement-container {
   display: flex;
   flex-direction: column;
@@ -88,3 +92,44 @@ button {
 
 }
 
+/* Media queries pour les tablettes */
+@media only screen and (max-width: 768px) {
+  body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0; 
+  }
+
+  .accueil-container,
+  .apropos-container,
+  .logement-container,
+  .gallerycard {
+    
+  }
+
+  .show-more-button {
+    
+  }
+}
+
+/* Media queries pour les téléphones */
+@media only screen and (max-width: 480px) {
+  body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0; 
+  }
+
+  .accueil-container,
+  .apropos-container,
+  .logement-container,
+  .gallerycard {
+    
+  }
+
+  .show-more-button {
+    
+  }
+}

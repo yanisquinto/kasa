@@ -47,3 +47,54 @@ header {
     }
   }
 }
+
+/* Media queries pour les tablettes */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Media queries pour les téléphones */
+@media only screen and (max-width: 480px) {
+  header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+
+  img {
+    width: 145px;
+    height: 46px;
+    margin-right: 100px;
+  }
+
+  .navlink {
+    color: $primary-color;
+    text-decoration: underline;
+  }
+
+  nav {
+    display: flex;
+    margin-left: -50px;
+    gap: $button-gap;
+    align-items: end;
+
+    a {
+      color: $primary-color;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: $button-top;
+      cursor: pointer;
+    }
+
+    .active {
+      text-decoration: underline;
+    }
+  }
+}
+}

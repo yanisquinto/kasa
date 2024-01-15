@@ -11,6 +11,7 @@ footer {
     align-items: center;
     justify-content: center;
     transition: transform 0.3s ease-in-out;
+    margin-top: 50px;
 
 
 
@@ -31,6 +32,16 @@ footer {
     min-height: 100vh; 
   }
   
+
+  /* Media queries pour les tablettes */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Media queries pour les téléphones */
+@media only screen and (max-width: 480px) {
+
+}
 
 
   

@@ -1,4 +1,3 @@
-// LogementPage.js
 import React from 'react';
 import Header from './components/Header';
 import BodyLogement from './components/BodyLogement';
