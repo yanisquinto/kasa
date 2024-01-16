@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import './styles/components/card.scss';
+import './styles-components/card.scss';
 
 const Card = ({ id, title, cover }) => {
   const navigate = useNavigate();

@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import './styles/components/BodyLogement.scss';
+import './styles-components/BodyLogement.scss';
 import Slideshow from './Slideshow';
 import Rating from './Rating';
 import Tag from './Tag';
-import DescriptionCollapse from './DescriptionCollapse';
-import EquipmentsCollapse from './EquipmentsCollapse';
+import Collapse from './Collapse';
 
 const BodyLogement = ({ logement }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -53,9 +52,9 @@ const BodyLogement = ({ logement }) => {
 
       <Rating rating={rating} />
 
-      <div>
-      <DescriptionCollapse description={description} />
-      <EquipmentsCollapse equipments={equipments} />
+      <div className='collapse-logement-container'>
+      <Collapse title="Description" content={description} className="collapse-description-container"/>
+      <Collapse title="Équipements" content={equipments} className="collapse-equipments-container"/>
       </div>
     </div>
   );

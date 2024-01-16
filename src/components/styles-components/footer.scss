@@ -26,13 +26,6 @@ footer {
 
   }
 
-  body {
-    margin: 0;
-    position: relative;
-    min-height: 100vh; 
-  }
-  
-
   /* Media queries pour les tablettes */
 @media only screen and (max-width: 768px) {
 
@@ -41,6 +34,38 @@ footer {
 /* Media queries pour les téléphones */
 @media only screen and (max-width: 480px) {
 
+  body {
+    max-width: 430px;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    max-width: 480px;
+    max-height: 208px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 50px;
+    margin-bottom: 0;
+
+
+
+  
+    img {
+    filter: brightness(0) invert(1);
+      width: 100px; 
+      height: auto;
+      margin-left: 100px;
+    }
+
+  }
+
+ 
 }
 
 

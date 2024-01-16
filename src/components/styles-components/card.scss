@@ -89,3 +89,36 @@
   }
 }
 
+/* Media queries pour les tablettes */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Media queries pour les téléphones */
+@media only screen and (max-width: 480px) {
+  .gallerycard {
+    display: grid;
+    align-items: center;
+    margin-top: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    justify-content: center;
+    background: #F6F6F6;
+    max-width: 480px;
+    margin-bottom: 60px;
+  }
+
+  .card {    
+    margin: 20px;
+    width: 355px;
+    height: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    position: relative;
+  
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+}
+}

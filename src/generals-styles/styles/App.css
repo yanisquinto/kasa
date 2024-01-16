@@ -3,6 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0; 
+  overflow-x: hidden;
 }
 
 .accueil-container {
@@ -27,15 +28,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  margin: 0;
 }
 
-.gallerycard {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-}
 
 .show-more-button {
   background-color: #FF6060; 
@@ -64,13 +59,14 @@ button {
   flex-direction: column;
   align-items: center;
   margin-bottom: 0;
+ 
 
   .title-404 {
     color: #FF6060;
     font-family: 'Montserrat';
-    font-size: 288px;
+    font-size: 250px;
     margin-top: 0;
-    margin-bottom: 145px;
+    margin-bottom: 55px;
   }
 
   .noexist-404 {
@@ -78,14 +74,14 @@ button {
     font-family: 'Montserrat';
     font-size: 36px;
     margin-top : 0px;
-    margin-bottom: 145px;
+    margin-bottom: 55px;
   }
 
   .gotoindex-404 {
     color: #FF6060;
     font-family: 'Montserrat';
     font-size: 18px;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
     text-decoration: underline;
   }
 
@@ -95,10 +91,7 @@ button {
 /* Media queries pour les tablettes */
 @media only screen and (max-width: 768px) {
   body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0; 
+     
   }
 
   .accueil-container,
@@ -115,21 +108,33 @@ button {
 
 /* Media queries pour les téléphones */
 @media only screen and (max-width: 480px) {
-  body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0; 
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
   }
 
   .accueil-container,
   .apropos-container,
   .logement-container,
   .gallerycard {
-    
+   
   }
 
   .show-more-button {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    background-color: #FF6060; 
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 150px;
   }
 }

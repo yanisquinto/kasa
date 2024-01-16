@@ -1,7 +1,13 @@
+// Note concernant les changements :
+// Réadaptation de la logique de rangement des dossiers pour une meilleure vision globale 
+// Refonte partielle de App.css conernant la responsive 
+// Refonte totale du composant "Collapse" pour une réutilisation adaptative du composant
+
+
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './components/styles/main.scss';
-import './components/styles/App.css';
+import './generals-styles/styles/main.scss';
+import './generals-styles/styles/App.css';
 import Accueil from './Accueil';
 import APropos from './APropos';
 import Error404 from './Error404';

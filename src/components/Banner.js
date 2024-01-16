@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/components/banner.scss';
+import './styles-components/banner.scss';
 
 function Banner({ imageUrl, text }) {
   return (
@@ -8,6 +8,6 @@ function Banner({ imageUrl, text }) {
       <p className="banner-text">Chez vous, partout et ailleurs</p>
     </div>
   );
-}
+} 
 
 export default Banner;

@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Banner from './components/Banner';
 import Footer from './components/Footer';
 import Collapse from './components/Collapse'; 
-import bannerIMG from './components/images/bannerapropos.png';
+import bannerIMG from './generals-styles/generals-images/bannerapropos.png';
 
 const APropos = () => (
   <div className='apropos-container'>

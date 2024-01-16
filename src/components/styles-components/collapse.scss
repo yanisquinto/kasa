@@ -1,0 +1,238 @@
+$primaryColor: #FF6060;
+
+.custom-collapse-container {
+  width: 1023px;
+  height: 52px;
+  background-color: $primaryColor;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: height 0.5s ease-in-out;
+
+  &.custom-open {
+    height: 100%;
+    transition: height 0,5s ease-in-out;
+  }
+
+  .custom-collapse-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    cursor: pointer;
+
+    .custom-titlecollapse {
+      font-family: Montserrat;
+      font-weight: normal;
+      font-size: 18px;
+      color: white;
+    }
+
+    .custom-svg {
+      color: white;
+      width: 20px;
+      height: 20px;
+      transition: transform 0.5s ease-in-out;
+    }
+  }
+
+  .custom-p {
+    padding: 0 20px;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 25px;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: $primaryColor;
+    background: #F6F6F6;
+  }
+
+}
+
+.collapse-logement-container {
+  display: flex;
+  margin-left: auto;
+}
+
+.collapse-description-container {
+  width: 582px;
+  height: 52px;
+  background-color: $primaryColor;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 45px;
+  transition: height 5s ease-in-out;
+
+  &.custom-open {
+    transition: height 1s ease-in-out;
+  }
+
+  .custom-collapse-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    cursor: pointer;
+
+    .custom-titlecollapse {
+      font-family: Montserrat;
+      font-weight: normal;
+      font-size: 18px;
+      color: white;
+    }
+
+    .custom-svg {
+      color: white;
+      width: 20px;
+      height: 20px;
+      transition: transform 0.5s ease-in-out;
+    }
+  }
+
+  .custom-p {
+    padding: 0 20px;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 25px;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: $primaryColor;
+    background: #F6F6F6;
+  }
+
+
+
+  ul {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0 10px;
+    margin: 0px 0;
+    background: #F6F6F6;
+
+
+    li {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      line-height: 10px;
+      font-family: Montserrat;
+      font-size: 14px;
+      color: $primaryColor;
+    }
+  }
+}
+
+.collapse-equipments-container {
+  width: 582px;
+  height: 52px;
+  background-color: $primaryColor;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  overflow: hidden;
+  transition: height 0.5s ease-in-out;
+
+  &.custom-open {
+    transition: height 1s ease-in-out;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .custom-collapse-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    cursor: pointer;
+
+    .custom-titlecollapse {
+      font-family: Montserrat;
+      font-weight: normal;
+      font-size: 18px;
+      color: white;
+    }
+
+    .custom-svg {
+      color: white;
+      width: 20px;
+      height: 20px;
+      transition: transform 0.5s ease-in-out;
+    }
+  }
+
+  .custom-p {
+    padding: 0 20px;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 25px;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: $primaryColor;
+    background: #F6F6F6;
+  }
+
+
+
+  ul {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0 10px;
+    margin: 0px 0;
+    background: #F6F6F6;
+
+
+    li {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      line-height: 10px;
+      font-family: Montserrat;
+      font-size: 14px;
+      color: $primaryColor;
+    }
+  }
+}
+
+/* Media queries pour les tablettes */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Media queries pour les téléphones */
+@media only screen and (max-width: 480px) {
+
+  .custom-collapse-container {
+    width: 375px;
+    height: 35px;
+    
+    .custom-titlecollapse {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 1px;
+    color: white;
+  }
+
+  .custom-svg {
+    color: white;
+    width: 10px;
+    height: 10px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .custom-p {
+  padding: 0 20px;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 25px;
+  font-family: Montserrat;
+  font-size: 14px;
+  color: $primaryColor;
+  background: #F6F6F6;
+}
+  }  
+}

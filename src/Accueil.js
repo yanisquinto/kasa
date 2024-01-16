@@ -2,8 +2,8 @@ import React, { useState, useRef } from 'react';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import Card from './components/Card';
-import imgBanner from './components/images/banneraccueil.png';
-import jsonData from './components/Data.json';
+import imgBanner from './generals-styles/generals-images/banneraccueil.png';
+import jsonData from './data/Data.json';
 import Footer from './components/Footer';
 import { Link } from 'react-router-dom';
 
@@ -42,7 +42,7 @@ const Accueil = () => {
   return (
     <div className="accueil-container">
       <Header />
-      <Banner imageUrl={imgBanner} texte="Texte sur la bannière de la page d'accueil" />
+      <Banner imageUrl={imgBanner} texte="" />
       <section className='gallerycard'>
         {cardsData.map((card) => (
           <Link key={card.id} to={`/logementPage/${card.id}`}>

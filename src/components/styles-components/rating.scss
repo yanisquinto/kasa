@@ -1,0 +1,33 @@
+$primaryColor: #FF6060;
+$nonactivestarscolor : rgb(168, 168, 168);
+
+
+.rating {
+    margin-top: -280px;
+    margin-left: 1200px;
+
+
+    .activestars {
+       color: $primaryColor;
+    }
+
+    .greystars {
+        color: $nonactivestarscolor;
+    }
+
+}
+
+/* Media queries pour les tablettes */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Media queries pour les téléphones */
+@media only screen and (max-width: 480px) {
+    .rating {
+        position: absolute;
+        gap: 50px;
+        top: 575px;
+        left: 20px;
+    }
+}

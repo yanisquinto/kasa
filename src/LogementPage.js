@@ -2,9 +2,10 @@ import React from 'react';
 import Header from './components/Header';
 import BodyLogement from './components/BodyLogement';
 import Footer from './components/Footer';
-import jsonData from './components/Data.json';
+import jsonData from './data/Data.json';
 import { useParams } from 'react-router-dom';
-import './components/styles/logement.scss'
+import { Navigate } from 'react-router-dom';
+
 
 
 const LogementPage = () => {
@@ -13,7 +14,7 @@ const LogementPage = () => {
 
   if (!logement) {
     
-    return <div>Logement non trouvé</div>;
+    return <Navigate to="/Error404" />;
   }
 
   return (
