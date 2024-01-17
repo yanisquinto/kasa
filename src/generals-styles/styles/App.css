@@ -90,17 +90,7 @@ button {
 
 /* Media queries pour les tablettes */
 @media only screen and (max-width: 768px) {
-  body {
-     
-  }
-
-
-
-  .show-more-button {
-    
-  }
 }
-
 /* Media queries pour les téléphones */
 @media only screen and (max-width: 480px) {
   
@@ -109,11 +99,6 @@ button {
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-  }
-
-  .logement-container {
-    width: 300vw;
-    height: 300vw ;
   }
 
   .accueil-container {

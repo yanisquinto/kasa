@@ -231,10 +231,8 @@ $primaryColor: #FF6060;
   }  
 
 
-//COLLAPSE EQUIPEMENTS 
-
+// COLLAPSE EQUIPEMENTS 
 .collapse-equipments-container {
-  
   width: 90vw;
   height: 8vw;
   margin-top: 0;
@@ -243,44 +241,48 @@ $primaryColor: #FF6060;
   transition: height 1s ease-in-out;
   
   .custom-collapse-header {
-    padding: 1.5vw;
+    padding: 0.5vw;
+
     .custom-titlecollapse {
-      font-size: 4vw;
+      font-size: 3.5vw;
     }
 
     .custom-svg {
       color: white;
-      width: 4vw;
-      height: 4vw;
+      width: 3.5vw;
+      height: 3.5vw;
       transition: transform 0.5s ease-in-out;
     }
   }
 }
 
 // COLLAPSE DESCRIPTION 
-
 .collapse-description-container {
   width: 90vw;
   height: 8vw;
-  margin-top: 35px;
+  margin-top: 5vw;
   margin-bottom: 5vw;
   margin-left: 0;
 
+  &.custom-open {
+    height: auto;
+    overflow: hidden;
+  }
+
   .custom-collapse-header {
-    padding: 1.5vw;
+    padding: 0.5vw;
 
     .custom-titlecollapse {
-      font-size: 4vw;
+      font-size: 3.5vw;
     }
 
     .custom-svg {
       color: white;
-      width: 4vw;
-      height: 4vw;
+      width: 3.5vw;
+      height: 3.5vw;
       transition: transform 0.5s ease-in-out;
     }
   }
-
 }
 
 .collapse-logement-container {
