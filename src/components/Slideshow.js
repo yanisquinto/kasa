@@ -4,20 +4,29 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 const Slideshow = ({ pictures, currentSlide, prevSlide, nextSlide }) => {
+  const showArrows = pictures.length > 1;
+
   return (
     <section className='container'>
       <div className="diaporama">
-        <button className="prev" onClick={prevSlide}>
-          <FontAwesomeIcon icon={faChevronLeft} />
-        </button>
+        {showArrows && (
+          <button className="prev" onClick={prevSlide}>
+            <FontAwesomeIcon icon={faChevronLeft} />
+          </button>
+        )}
         <img src={pictures[currentSlide]} alt={`Logement ${currentSlide + 1}`} />
-        <button className="next" onClick={nextSlide}>
-          <FontAwesomeIcon icon={faChevronRight} />
-        </button>
+        {showArrows && (
+          <button className="next" onClick={nextSlide}>
+            <FontAwesomeIcon icon={faChevronRight} />
+          </button>
+        )}
+        <div className="slide-counter">{`${currentSlide + 1}/${pictures.length}`}</div>
       </div>
     </section>
   );
 };
 
 export default Slideshow;
+
+
 

@@ -45,6 +45,14 @@ $primaryColor: #FF6060;
     border-radius: 25px;
     object-fit: cover;
   }
+
+  .slide-counter{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    color: white;
+    margin-top: -35px;
+  }
 }
 
 /* Media queries pour les tablettes */
