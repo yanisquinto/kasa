@@ -45,14 +45,16 @@ const Accueil = () => {
       <Banner imageUrl={imgBanner} texte="" />
       <section className='gallerycard'>
         {cardsData.map((card) => (
-          <Link key={card.id} to={`/logementPage/${card.id}`}>
-            <Card
-              key={card.id}
-              id={card.id}
-              title={card.title}
-              cover={card.cover}
-            />
-          </Link>
+          <div key={card.id}>
+            <Link to={`/logementPage/${card.id}`}>
+              <Card
+                key={card.id}
+                id={card.id}
+                title={card.title}
+                cover={card.cover}
+              />
+            </Link>
+          </div>
         ))}
         {showMore ? (
           <button className="show-more-button" onClick={handleShowMore}>Afficher plus</button>
@@ -67,3 +69,4 @@ const Accueil = () => {
 };
 
 export default Accueil;
+
