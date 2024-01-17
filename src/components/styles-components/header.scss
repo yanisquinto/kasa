@@ -58,17 +58,15 @@ header {
 
   header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 0px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
 
   img {
-    width: 145px;
-    height: 46px;
-    margin-right: 100px;
+    width: 30vw;
+    height: 9vw;
   }
 
   .navlink {
@@ -78,24 +76,18 @@ header {
 
   nav {
     display: flex;
-    margin-left: -50px;
-    gap: $button-gap;
-    align-items: end;
+    align-items: baseline;
+    margin-left: 0vw;
+    gap: 0vw;
+    
 
     a {
-      color: $primary-color;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 14px;
-      text-decoration: none;
-      padding: 10px;
+      font-size: 3.2vw;
+      padding: 1.9vw;
       border-radius: 5px;
-      margin-top: $button-top;
-      cursor: pointer;
+      margin-top: 4vw;
     }
 
-    .active {
-      text-decoration: underline;
-    }
   }
 }
 }

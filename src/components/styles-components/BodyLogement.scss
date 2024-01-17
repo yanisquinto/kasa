@@ -34,15 +34,16 @@ $primaryColor: #FF6060;
 .host {
   display: flex;
   align-items: center;
-  margin-top: -470px;
-  margin-left: 1230px;
+  margin-top: -350px;
+  margin-left: auto;
 }
 
 .picture {
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  margin-right: -104px;
+  margin-right: -14px;
+  margin-top: -110px;
 }
 
 .name {
@@ -67,45 +68,40 @@ $primaryColor: #FF6060;
 @media only screen and (max-width: 480px) {
   .container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
-    max-width: 480px;
-    margin-right: 70px;
+    margin-bottom: 10vw;
+    margin-left: 0;
   }
   
   .title { 
-    font-size: 26px;
-    margin-left: 80px;
-    margin-top: 110px;
+    font-size: 5vw;
+    margin-top: 2vw;
+    margin-left: 0;
   }
   
   .location {
-    font-size: 15px;
-    line-height: 26px;
-    margin-top: 220px;
-    margin-left: 80px;
+    font-size: 3vw;
+    line-height: 5vw;
+    margin-top: 2vw;
+    margin-left: 0;
   }
   
   .host {
-    position: absolute;
-    margin-left: 435px;
-    margin-top: 390px;
+    margin-top: 2vw;
+    text-align: center;
+    margin-left: 0;
     
-  
     .picture {
-      width: 40px;
-      height: 40px;
+      width: 5vw;
+      height: 5vw;
       border-radius: 50%;
-      margin-right: 45px; 
-      margin-bottom: -7px;
+      margin-bottom: -1vw;
     }
-  
-    
   }
   
   .name {
-      font-size: 12px;
-      right: 90px;
-      
-    }
+    font-size: 2vw;
+    margin-top: 2vw;
+  }
 }

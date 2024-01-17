@@ -35,32 +35,23 @@ footer {
 @media only screen and (max-width: 480px) {
 
   body {
-    max-width: 430px;
+    max-width: 120vw;
   }
 
   footer {
-    background-color: black;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    max-width: 480px;
-    max-height: 208px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-size: 3vw;
+    max-width: 200vw;
+    max-height: 100vw;
     justify-content: center;
-    transition: transform 0.3s ease-in-out;
-    margin-top: 50px;
+    margin-top: 8vw;
     margin-bottom: 0;
 
-
-
-  
     img {
     filter: brightness(0) invert(1);
-      width: 100px; 
+      width: 20vw; 
       height: auto;
       margin-left: 100px;
+      margin-bottom: 2vw;
     }
 
   }
