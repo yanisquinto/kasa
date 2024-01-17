@@ -119,4 +119,37 @@ button {
   margin-left: 0;
   margin-bottom: -20px;
 }
+
+.container-404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .title-404 {
+    color: #FF6060;
+    font-family: 'Montserrat';
+    font-size: 33vw;
+    margin-top: 0;
+    margin-bottom: 5vw;
+  }
+
+  .noexist-404 {
+    color: #FF6060;
+    font-family: 'Montserrat';
+    font-size: 3vw;
+    margin-top : 0px;
+    margin-bottom: 5vw;
+  }
+
+  .gotoindex-404 {
+    color: #FF6060;
+    font-family: 'Montserrat';
+    font-size: 3vw;
+    margin-bottom: 5vw;
+    text-decoration: underline;
+  }
+
+
+}
+
 }
