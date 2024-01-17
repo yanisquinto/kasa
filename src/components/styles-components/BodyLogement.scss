@@ -68,34 +68,38 @@ $primaryColor: #FF6060;
 @media only screen and (max-width: 480px) {
   .container {
     display: flex;
-    flex-direction: column;
-    margin-bottom: 10vw;
-    margin-left: 0;
+    justify-content: flex-start;
     margin-right: 0;
-    overflow: hidden;
-  }
+    margin-bottom: 0;
+    
+  }  
+  
   
   .title { 
-    font-size: 5vw;
-    margin-top: -14vw;
-    margin-left: -42vw;    
-    
+    word-wrap: break-word;
+    font-size: 4vw;
+    margin-top: 0;
+    margin-left: 0;   
+    line-height: 9vw;
+    max-width: 300px;
   }
+
+
   .location {
-   
     font-size: 3vw;
     line-height: 5vw;
     margin-top: 0;
-    margin-left: -53vw;
+    margin-left: 0;
   }
   
   
   .host {
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 5vw;
-    margin-bottom: 2.5vw;
-    margin-left: 60vw;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
   
   .picture {
@@ -115,5 +119,5 @@ $primaryColor: #FF6060;
     margin-left: 0;
     margin-bottom: 0px;
   }
-
 }
+

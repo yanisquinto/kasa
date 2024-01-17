@@ -39,17 +39,17 @@ const BodyLogement = ({ logement }) => {
       <h2 className="title">{title}</h2>
       <p className="location">{location}</p>
 
-      <div className="host">
-        <img className="picture" src={hostPicture} alt={`Hôte ${hostName}`} />
-        <p className="name">{hostName}</p>
-      </div>
-
       <ul className="tags">
         {tags.map((tag, index) => (
           <Tag key={index} text={tag} />
         ))}
       </ul>
 
+      <div className="host">
+        <img className="picture" src={hostPicture} alt={`Hôte ${hostName}`} />
+        <p className="name">{hostName}</p>
+      </div>
+      
       <Rating rating={rating} />
 
       <div className='collapse-logement-container'>
