@@ -66,7 +66,7 @@ button {
     font-family: 'Montserrat';
     font-size: 250px;
     margin-top: 0;
-    margin-bottom: 55px;
+    margin-bottom: 5vw;
   }
 
   .noexist-404 {
@@ -74,14 +74,14 @@ button {
     font-family: 'Montserrat';
     font-size: 36px;
     margin-top : 0px;
-    margin-bottom: 55px;
+    margin-bottom: 5vw;
   }
 
   .gotoindex-404 {
     color: #FF6060;
     font-family: 'Montserrat';
     font-size: 18px;
-    margin-bottom: 55px;
+    margin-bottom: 5vw;
     text-decoration: underline;
   }
 
@@ -109,6 +109,11 @@ button {
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+  }
+
+  .logement-container {
+    width: 300vw;
+    height: 300vw ;
   }
 
   .accueil-container {

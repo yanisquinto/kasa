@@ -5,10 +5,9 @@ $primaryColor: #FF6060;
   height: 52px;
   background-color: $primaryColor;
   border-radius: 5px;
-  margin-top: 0px;
-  margin-bottom: 20px;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
   overflow: hidden;
-  transition: height 0.5s ease-in-out;
 
   &.custom-open {
     height: 100%;
@@ -66,7 +65,7 @@ $primaryColor: #FF6060;
   margin-left: 45px;
 
   &.custom-open {
-    transition: height 1s ease-in-out;
+    transition: height 0.1s ease-in-out;
   }
 
   .custom-collapse-header {
@@ -135,7 +134,6 @@ $primaryColor: #FF6060;
   overflow: hidden;
 
   &.custom-open {
-    transition: height 1s ease-in-out;
     height: auto;
     overflow: hidden;
   }
@@ -206,28 +204,24 @@ $primaryColor: #FF6060;
   //COLLAPSE GENERALE
 
   .custom-collapse-container {
-    width: 375px;
-    height: 35px;
+    width: 90vw;
+    height: 9vw;
     
     .custom-titlecollapse {
-    font-family: Montserrat;
-    font-weight: normal;
+    padding: 1.5vw;
     font-size: 1px;
     color: white;
   }
 
   .custom-svg {
     color: white;
-    width: 10px;
-    height: 10px;
+    width: 4vw;
+    height: 4vw;
     transition: transform 0.5s ease-in-out;
   }
   
   .custom-p {
-  padding: 0 20px;
   margin: 0;
-  padding-top: 15px;
-  padding-bottom: 15px;
   line-height: 25px;
   font-family: Montserrat;
   font-size: 14px;
@@ -240,37 +234,24 @@ $primaryColor: #FF6060;
 //COLLAPSE EQUIPEMENTS 
 
 .collapse-equipments-container {
+  
   width: 90vw;
   height: 8vw;
-  margin-top: 20px;
-  margin-bottom: 8vw;
+  margin-top: 0;
+  margin-bottom: 0;
   margin-left: 0;
   transition: height 1s ease-in-out;
   
-  &.custom-open {
-    transition: height 1s ease-in-out;
-    height: auto;
-    overflow: hidden;
-  }
-
   .custom-collapse-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    cursor: pointer;
-
+    padding: 1.5vw;
     .custom-titlecollapse {
-      font-family: Montserrat;
-      font-weight: normal;
-      font-size: 18px;
-      color: white;
+      font-size: 4vw;
     }
 
     .custom-svg {
       color: white;
-      width: 20px;
-      height: 20px;
+      width: 4vw;
+      height: 4vw;
       transition: transform 0.5s ease-in-out;
     }
   }
@@ -281,73 +262,32 @@ $primaryColor: #FF6060;
 .collapse-description-container {
   width: 90vw;
   height: 8vw;
-  background-color: $primaryColor;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 90vw;
-  transition: height 1s ease-in-out;
-
-  &.custom-open {
-    transition: height 1s ease-in-out;
-  }
+  margin-top: 35px;
+  margin-bottom: 5vw;
+  margin-left: 0;
 
   .custom-collapse-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    cursor: pointer;
+    padding: 1.5vw;
 
     .custom-titlecollapse {
-      font-family: Montserrat;
-      font-weight: normal;
-      font-size: 18px;
-      color: white;
+      font-size: 4vw;
     }
 
     .custom-svg {
       color: white;
-      width: 20px;
-      height: 20px;
+      width: 4vw;
+      height: 4vw;
       transition: transform 0.5s ease-in-out;
     }
   }
 
-  .custom-p {
-    padding: 0 20px;
-    margin: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    line-height: 25px;
-    font-family: Montserrat;
-    font-size: 14px;
-    color: $primaryColor;
-    background: #F6F6F6;
-  }
-
-
-
-  ul {
-    margin-top: 20px;
-    list-style-type: none;
-    padding: 0 10px;
-    margin: 0px 0;
-    background: #F6F6F6;
-
-
-    li {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      line-height: 10px;
-      font-family: Montserrat;
-      font-size: 14px;
-      color: $primaryColor;
-    }
-  }
 }
 
 .collapse-logement-container {
   display: grid;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0;
 }
-
 }
