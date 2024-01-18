@@ -2,7 +2,7 @@ $primaryColor: #FF6060;
 
 .custom-collapse-container {
   width: 70vw;
-  height: 5vw;
+  height: 4.5vw;
   background-color: $primaryColor;
   border-radius: 10px;
   margin-top: 1vw;
@@ -24,7 +24,7 @@ $primaryColor: #FF6060;
     .custom-titlecollapse {
       font-family: Montserrat;
       font-weight: normal;
-      font-size: 1.8vw;
+      font-size: 90%;
       color: white;
     }
 
@@ -96,7 +96,7 @@ $primaryColor: #FF6060;
     padding-bottom: 15px;
     line-height: 3vw;
     font-family: Montserrat;
-    font-size: 1.8vw;
+    font-size: 90%;
     color: $primaryColor;
     background: #F6F6F6;
   }
@@ -144,7 +144,7 @@ $primaryColor: #FF6060;
     padding-bottom: 2vw;
     line-height: 2vw;
     font-family: Montserrat;
-    font-size: 2vw;
+    font-size: 90%;
     color: $primaryColor;
     background: #F6F6F6;
   }
@@ -163,16 +163,9 @@ $primaryColor: #FF6060;
       padding-top: 1.5vw;
       padding-bottom: 1.5vw;
       line-height: 1vw;
-      font-family: Montserrat;
-      font-size: 1.8vw;
       color: $primaryColor;
     }
   }
-}
-
-/* Media queries pour les tablettes */
-@media only screen and (max-width: 768px) {
-
 }
 
 /* Media queries pour les téléphones */

@@ -27,7 +27,10 @@ $nonactivestarscolor : rgb(168, 168, 168);
 /* Media queries pour les téléphones */
 @media only screen and (max-width: 480px) {
     .rating {
-        margin-top: -12vw;
+       display: flex;
+       justify-content: left;
+       font-size: 15px;
+       margin-bottom: 20px;
 
 }
 }
