@@ -2,7 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0; 
+  margin: 0;
   overflow-x: hidden;
 }
 
@@ -37,10 +37,10 @@ body {
   color:white;
   font-family: 'Montserrat', sans-serif;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 1vw;
   text-decoration: none;
   cursor: pointer;
-  width: 200px;
+  width: 10vw;
 }
 
 .show-less {
@@ -64,7 +64,7 @@ button {
   .title-404 {
     color: #FF6060;
     font-family: 'Montserrat';
-    font-size: 250px;
+    font-size: 12vw;
     margin-top: 0;
     margin-bottom: 5vw;
   }
@@ -72,7 +72,7 @@ button {
   .noexist-404 {
     color: #FF6060;
     font-family: 'Montserrat';
-    font-size: 36px;
+    font-size: 2vw;
     margin-top : 0px;
     margin-bottom: 5vw;
   }
@@ -88,9 +88,9 @@ button {
 
 }
 
-/* Media queries pour les tablettes */
-@media only screen and (max-width: 768px) {
-}
+
+
+
 /* Media queries pour les téléphones */
 @media only screen and (max-width: 480px) {
   

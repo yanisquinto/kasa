@@ -1,12 +1,12 @@
 $primaryColor: #FF6060;
 
 .custom-collapse-container {
-  width: 1023px;
-  height: 52px;
+  width: 70vw;
+  height: 5vw;
   background-color: $primaryColor;
-  border-radius: 5px;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
+  border-radius: 10px;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
   overflow: hidden;
 
   &.custom-open {
@@ -18,32 +18,32 @@ $primaryColor: #FF6060;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 1vw;
     cursor: pointer;
 
     .custom-titlecollapse {
       font-family: Montserrat;
       font-weight: normal;
-      font-size: 18px;
+      font-size: 1.8vw;
       color: white;
     }
 
     .custom-svg {
       color: white;
-      width: 20px;
-      height: 20px;
+      width: 2vw;
+      height: 2vh;
       transition: transform 0.5s ease-in-out;
     }
   }
 
   .custom-p {
-    padding: 0 20px;
+    padding: 0 1vw;
     margin: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    line-height: 25px;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    line-height: 2vw;
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 1vw;
     color: $primaryColor;
     background: #F6F6F6;
   }
@@ -52,17 +52,16 @@ $primaryColor: #FF6060;
 
 .collapse-logement-container {
   display: flex;
-  margin-left: auto;
+  justify-content: center;
+  gap: 2vw;
 }
 
 .collapse-description-container {
-  width: 582px;
-  height: 52px;
+  width: 40vw;
+  height: 4vw;
   background-color: $primaryColor;
-  border-radius: 5px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 45px;
+  border-radius: 10px;
+  
 
   &.custom-open {
     transition: height 0.1s ease-in-out;
@@ -78,14 +77,14 @@ $primaryColor: #FF6060;
     .custom-titlecollapse {
       font-family: Montserrat;
       font-weight: normal;
-      font-size: 18px;
+      font-size: 1.3vw;
       color: white;
     }
 
     .custom-svg {
       color: white;
-      width: 20px;
-      height: 20px;
+      width: 2.5vw;
+      height: 2.5vh;
       transition: transform 0.5s ease-in-out;
     }
   }
@@ -95,43 +94,21 @@ $primaryColor: #FF6060;
     margin: 0;
     padding-top: 15px;
     padding-bottom: 15px;
-    line-height: 25px;
+    line-height: 3vw;
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 1.8vw;
     color: $primaryColor;
     background: #F6F6F6;
   }
 
-
-
-  ul {
-    margin-top: 20px;
-    list-style-type: none;
-    padding: 0 10px;
-    margin: 0px 0;
-    background: #F6F6F6;
-
-
-    li {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      line-height: 10px;
-      font-family: Montserrat;
-      font-size: 14px;
-      color: $primaryColor;
-    }
-  }
 }
 
 .collapse-equipments-container {
-  width: 582px;
-  height: 52px;
+  width: 40vw;
+  height: 4vw;
   background-color: $primaryColor;
-  border-radius: 5px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 60px;
-  overflow: hidden;
+  border-radius: 10px;
+  
 
   &.custom-open {
     height: auto;
@@ -148,14 +125,14 @@ $primaryColor: #FF6060;
     .custom-titlecollapse {
       font-family: Montserrat;
       font-weight: normal;
-      font-size: 18px;
+      font-size: 1.2vw;
       color: white;
     }
 
     .custom-svg {
       color: white;
-      width: 20px;
-      height: 20px;
+      width: 2.5vw;
+      height: 2.5vh;
       transition: transform 0.5s ease-in-out;
     }
   }
@@ -163,11 +140,11 @@ $primaryColor: #FF6060;
   .custom-p {
     padding: 0 20px;
     margin: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    line-height: 25px;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    line-height: 2vw;
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 2vw;
     color: $primaryColor;
     background: #F6F6F6;
   }
@@ -175,7 +152,7 @@ $primaryColor: #FF6060;
 
 
   ul {
-    margin-top: 20px;
+    margin-top: 2vw;
     list-style-type: none;
     padding: 0 10px;
     margin: 0px 0;
@@ -183,11 +160,11 @@ $primaryColor: #FF6060;
 
 
     li {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      line-height: 10px;
+      padding-top: 1.5vw;
+      padding-bottom: 1.5vw;
+      line-height: 1vw;
       font-family: Montserrat;
-      font-size: 14px;
+      font-size: 1.8vw;
       color: $primaryColor;
     }
   }
@@ -205,17 +182,17 @@ $primaryColor: #FF6060;
 
   .custom-collapse-container {
     width: 90vw;
-    height: 9vw;
+    height: 6vw;
     
     .custom-titlecollapse {
     padding: 1.5vw;
-    font-size: 1px;
+    font-size: 11px;
     color: white;
-  }
+  } 
 
   .custom-svg {
     color: white;
-    width: 4vw;
+    width: 5vw;
     height: 4vw;
     transition: transform 0.5s ease-in-out;
   }
@@ -224,7 +201,7 @@ $primaryColor: #FF6060;
   margin: 0;
   line-height: 25px;
   font-family: Montserrat;
-  font-size: 14px;
+  font-size: 11px;
   color: $primaryColor;
   background: #F6F6F6;
 }
@@ -236,12 +213,12 @@ $primaryColor: #FF6060;
   width: 90vw;
   height: 8vw;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 5vw;
   margin-left: 0;
   transition: height 1s ease-in-out;
   
   .custom-collapse-header {
-    padding: 0.5vw;
+    padding: 1vw;
 
     .custom-titlecollapse {
       font-size: 3.5vw;
@@ -253,7 +230,26 @@ $primaryColor: #FF6060;
       height: 3.5vw;
       transition: transform 0.5s ease-in-out;
     }
+
+    ul {
+      margin-top: 2vw;
+      list-style-type: none;
+      padding: 0 10px;
+      margin: 0px 0;
+      background: #F6F6F6;
+  
+  
+      li {
+        padding-top: 1.5vw;
+        padding-bottom: 1.5vw;
+        line-height: 1vw;
+        font-family: Montserrat;
+        font-size: 11px;
+        color: $primaryColor;
+      }
+
   }
+}
 }
 
 // COLLAPSE DESCRIPTION 
@@ -270,7 +266,7 @@ $primaryColor: #FF6060;
   }
 
   .custom-collapse-header {
-    padding: 0.5vw;
+    padding: 1vw;
 
     .custom-titlecollapse {
       font-size: 3.5vw;
@@ -281,6 +277,10 @@ $primaryColor: #FF6060;
       width: 3.5vw;
       height: 3.5vw;
       transition: transform 0.5s ease-in-out;
+    }
+
+    .custom-p {
+      font-size: 11px;
     }
   }
 }

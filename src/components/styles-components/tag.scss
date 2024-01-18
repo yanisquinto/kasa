@@ -3,18 +3,19 @@ $primaryColor: #FF6060;
 .tags {
     display: flex;
     flex-wrap: wrap; 
-    gap: 10px;
-    margin-top: -250px;
-    margin-left: 52px;
+    justify-content: left;
+    gap: 1vw;
+    padding: 0;
+    
   
   
     .tag {
-      height: 25px;
+      height: 2vw;
       border-radius: 10px;
       background: $primaryColor;
       color: white;
       font-family: Montserrat;
-      font-size: 14px;
+      font-size: 1.1vw;
       display: inline-flex; 
       justify-content: center;
       align-items: center;

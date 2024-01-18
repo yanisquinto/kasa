@@ -2,15 +2,14 @@
   display: grid;
   align-items: center;
   margin: auto;
-  margin-top: 50px;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  justify-content: center;
+  margin-top: 2vw;
+  grid-template-columns: repeat(3, minmax(0, 1fr));  justify-content: center;
   background: #F6F6F6;
-  max-width: 1240px;
+  max-width: 87vw;
   border-radius: 25px;
-  gap: 20px;
-  padding: 30px;
-  margin-bottom: 110px;
+  gap: 1vw;
+  padding: 2vw;
+  margin-bottom: 3vw;
 }
 
 :-webkit-any-link {
@@ -18,9 +17,9 @@
 }
 
 .card {    
-  margin: 20px;
-  width: 340px;
-  height: 340px;
+  margin: 1.5vw;
+  width: 24.2vw;
+  height: 24.2vw;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
   overflow: hidden;
@@ -43,21 +42,21 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 20px;
+    padding: 1.5vw;
     text-decoration: none;
   }
 
   h1 {
-    font-size: 16px;
+    font-size: 1.2vw;
     color: #fff;
-    margin-top: -250px;
-    margin-bottom: 30px;
+    margin-top: -55vw;
+    margin-bottom: 2vw;
     text-align: left;
     max-width: 100%;
   }
 
   p {
-    font-size: 14px;
+    font-size: 2vw;
     color: #fff;
   }
   

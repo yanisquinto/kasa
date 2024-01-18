@@ -3,33 +3,32 @@ footer {
     background-color: black;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    width: 145vw;
+    font-size: 2vw;
+    width: 100vw;
     height: 208px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: transform 0.3s ease-in-out;
-    margin-top: 50px;
+    margin-top: 2vh;
 
 
 
   
     img {
     filter: brightness(0) invert(1);
-      width: 100px; 
-      height: auto;
-      margin-left: 100px;
+      width: 7vw; 
+      height: 2.3vw;
+    }
+
+    p {
+      font-size: 2vw;
     }
 
 
   }
 
-  /* Media queries pour les tablettes */
-@media only screen and (max-width: 768px) {
-
-}
 
 /* Media queries pour les téléphones */
 @media only screen and (max-width: 480px) {
@@ -37,10 +36,10 @@ footer {
 
   footer {
     font-size: 3vw;
-    max-width: 200vw;
-    max-height: 100vw;
+    max-width: 300vw;
+    max-height: 300vw;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 2vw;
     margin-bottom: 0;
 
 
@@ -50,8 +49,11 @@ footer {
     filter: brightness(0) invert(1);
       width: 20vw; 
       height: auto;
-      margin-left: 100px;
       margin-bottom: 2vw;
+    }
+
+    p {
+      font-size: 3vw;
     }
 
   }

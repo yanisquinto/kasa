@@ -2,58 +2,47 @@ $primaryColor: #FF6060;
 
 .container {
   display: grid;
-  margin-bottom: 100px;
-  max-width: 1240px;
-  margin-right: 70px;
+  max-width: 82vw;
+  margin-top: 25px;
 }
 
 .title {
   font-family: Montserrat;
-  font-size: 36px;
+  font-size: 2vw;
   font-weight: 500;
-  line-height: 51px;
-  letter-spacing: 0em;
+  line-height: 0.5vw;
   text-align: left;
   color: $primaryColor;
-  margin-left: 95px;
-  margin-top: -450px;
 }
 
 .location {
   font-family: Montserrat;
-  font-size: 18px;
+  font-size: 1.2vw;
   font-weight: 500;
-  line-height: 26px;
-  letter-spacing: 0em;
+  line-height: 0.5vw;
   text-align: left;
   color: $primaryColor;
-  margin-top: -370px;
-  margin-left: 95px;
+  margin: 0;
 }
 
 .host {
   display: flex;
-  align-items: center;
-  margin-top: -350px;
-  margin-left: auto;
+  justify-content: right;
+  margin-top: -13vw
 }
 
 .picture {
-  width: 64px;
-  height: 64px;
+  width: 4.5vw;
+  height: 4.5vw;
   border-radius: 50%;
-  margin-right: -14px;
-  margin-top: -110px;
+  margin-left: 1vw;
 }
 
 .name {
   font-family: Montserrat;
-  font-size: 18px;
+  font-size: 1.5vw;
   font-weight: 500;
-  line-height: 26px;
   color: $primaryColor;
-  margin-left: -100px;
-  margin-bottom: 20px;
 }
 
 
@@ -69,8 +58,7 @@ $primaryColor: #FF6060;
   .container {
     display: flex;
     justify-content: flex-start;
-    margin-right: 0;
-    margin-bottom: 0;
+    max-width: unset;
     
   }  
   
@@ -94,9 +82,7 @@ $primaryColor: #FF6060;
   
   
   .host {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-top: 20px;
+    margin-top: -25vw;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;

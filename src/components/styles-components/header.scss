@@ -1,23 +1,22 @@
 $primary-color: #FF6060;
-$logo-width: 210.32px;
-$logo-height: 6,8em;
-$button-gap: 25px;
-$button-top: 17px;
+$logo-width: 14vw;
+$logo-height: 4.7vw;
+$button-gap: 1.5vw;
+$button-top: 1vw;
 
 
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 0px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
+  align-items: flex-start;
+  padding: 0;
+  gap: 4vw;
+  margin-top: 2vw;
+ 
 
   img {
     width: $logo-width;
     height: $logo-height;
-    margin-right: 100px;
   }
 
   .navlink {
@@ -27,17 +26,16 @@ header {
 
   nav {
     display: flex;
-    margin-left: 660px;
+    margin-left: 45vw;
     gap: $button-gap;
     align-items: end;
 
     a {
       color: $primary-color;
       font-family: 'Montserrat', sans-serif;
-      font-size: 22px;
+      font-size: 1.5vw;
       text-decoration: none;
-      padding: 10px;
-      border-radius: 5px;
+      padding: 1vw;
       margin-top: $button-top;
       cursor: pointer;
     }
@@ -48,10 +46,7 @@ header {
   }
 }
 
-/* Media queries pour les tablettes */
-@media only screen and (max-width: 768px) {
 
-}
 
 /* Media queries pour les téléphones */
 @media only screen and (max-width: 480px) {
@@ -63,6 +58,7 @@ header {
   margin-left: 0;
   margin-right: 0;
   padding: 0;
+  gap: 25vw;
 
   img {
     width: 30vw;

@@ -46,8 +46,8 @@ const BodyLogement = ({ logement }) => {
       </ul>
 
       <div className="host">
-        <img className="picture" src={hostPicture} alt={`Hôte ${hostName}`} />
         <p className="name">{hostName}</p>
+        <img className="picture" src={hostPicture} alt={`Hôte ${hostName}`} />
       </div>
       
       <Rating rating={rating} />
